@@ -10,7 +10,7 @@ namespace PDAB_51ServiceBus
     {
         //Must be updated to reflect your service
         const string ServiceBusConnectionString = "<<Your Service Bus Connection String>>";
-        const string QueueName = "salesmessages";
+        const string QueueName = "<<Queue Name>>";
 
         const int numberOfMessages = 10;
         static IQueueClient queueClient;
